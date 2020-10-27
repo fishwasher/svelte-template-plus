@@ -1,0 +1,35 @@
+// variables and mixins only (no output)
+
+// fonts
+@font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+// font weight
+@fw-thin: 100;
+@fw-normal: 400;
+@fw-bold: 700;
+
+// font size
+@fs-base: 1rem;
+
+// colors
+@c-red: #ff3e00;
+@c-body-text: #333;
+@c-link: rgb(0, 100, 200);
+
+// mixins, output suppressed
+
+.font-sans-thin() {
+  font-family: @font-sans;
+  font-weight: @fw-thin;
+}
+
+.font-sans-normal() {
+  font-family: @font-sans;
+  font-weight: @fw-normal;
+}
+
+.font-sans-bold() {
+  font-family: @font-sans;
+  font-weight: @fw-bold;
+}
